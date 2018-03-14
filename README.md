@@ -26,6 +26,27 @@
 
 ## 知乎校招
 1. 如何把一个 长的url 短编码以及解码
+    不用考虑解析url
+    直接采用映射关系
+    <pre><code>
+      const arr = [{
+        long: '',
+        short: '',
+      }]
+      // const url = 'https://github.com/xiao-ben/FE-Interview-experience/edit/master/README.md'
+      decode = (url) => {
+         obj = {
+            long: url,
+            short:  'https://github.com/' + arr.length // 很多条时采用base64编码(arr.length) 具体方法自行百度
+         };
+         arr.push(obj);
+         return obj.long;
+      }
+      undecode = (url) => {
+         return arr.find(item => item.short === url).long;
+      }
+    </code></pre>
+  
 2. 考虑如果很多url  两台服务器存储会有什么问题
 3. typescript 相关知识点 
 4. export 和  default 除了{} 还有什么差别
