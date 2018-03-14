@@ -25,9 +25,8 @@
 
 
 ## 知乎校招
-1. 如何把一个 长的url 短编码以及解码
-    不用考虑解析url
-    直接采用映射关系
+1. 如何把一个 长的url 短编码以及解码        
+    不用考虑解析url  直接采用映射关系
     <pre><code>
       const arr = [{
         long: '',
@@ -53,11 +52,14 @@
 5. reaxt router api 以及 匹配原理
 6. setstate 之后干了什么
 7. diff算法 以及 返回什么
+   返回的是对 dom 树的一系列操作
 8. context api
 9. react16 有哪些变动
 10. 组件通信 以及 redux 和 mobx的优劣
 11. css moudles 根据什么加的 hash
+    根据路径加文件名
 12. promise.cancle实现
+    new 一个然后race
 
 
 ## 夜未央 上海
