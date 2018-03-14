@@ -22,3 +22,19 @@
 1. 1px的问题遇到过吗?你的解决方案的原理可以简单说一下吗
 2. 点击底部输入框，输入法面板挡住页面底部有什么解决方案
 3. flex布局，调节子元素位置相关的属性有哪一些
+
+
+## 知乎校招
+1. 如何把一个 长的url 短编码以及解码
+2. 考虑如果很多url  两台服务器存储会有什么问题
+
+3. typescript 相关知识点 
+4. export 和  default 除了{} 还有什么差别
+5. reaxt router api 以及 匹配原理
+6. setstate 之后干了什么
+7. diff算法 以及 返回什么
+8. context api
+9. react16 有哪些变动
+10. 组件通信 以及 redux 和 mobx的优劣
+11. css moudles 根据什么加的 hash
+12. promise.cancle实现
