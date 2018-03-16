@@ -96,11 +96,11 @@
 14. 使用闭包实现一个函数，每执行一次返回值加1
 
 ## 北京 校招 
-1.webpack 多入口 如何配置  publicpath的左右 [chunkhash]根据是如何实现的 
-2.babel5 与 babel 6 的不同 
-3.如何封装自己的 http.js(用途 比如统一携带token)
-4.async await  相关知识点
-5.promise.all([1, 2, 3]) 如果其中一个 出现错区之后 如何保证其他的正常运行
-6.http 相关 比如 一个请求包含什么 返回包含什么 以及如何判断一个请求 是同步还是异步
-7.flex 布局相关
-8.vue 双向数据绑定原理
+1. webpack 多入口 如何配置  publicpath的左右 [chunkhash]根据是如何实现的 
+2. babel5 与 babel 6 的不同 
+3. 如何封装自己的 http.js(用途 比如统一携带token)
+4. async await  相关知识点
+5. promise.all([1, 2, 3]) 如果其中一个 出现错区之后 如何保证其他的正常运行
+6. http 相关 比如 一个请求包含什么 返回包含什么 以及如何判断一个请求 是同步还是异步
+7. flex 布局相关
+8. vue 双向数据绑定原理
